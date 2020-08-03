@@ -1,215 +1,155 @@
-starbucks
-subway
-tim hortons
-mcdonald's
-a&w
-white spot
-freshii
-freshslice pizza
-pizza hut
-quiznos
-dairy queen
-blenz coffee
-panago
-kfc
-boston pizza
-burger king
-little caesars
-wendy's
-booster juice
-nando's
+241 Pizza
 A&W
 Arby's
-Quik Chik - Milton
 Baker's Dozen Donuts
-La Belle Province
-Booster Juice
-Burger Baron
-Burger King
-Captain Submarine
-Carl's Jr.
-Chez Ashton
-Chicken Delight
-Chipotle Mexican Grill
-Cinnabon
-Coffee Time
-Country Style
-Dairy Queen
-Dic Ann's Hamburgers
-Dixie Lee Fried Chicken
-Domino's
-Donut Diner
-Edo Japan
-Extreme Pita
-Fast Eddies
-Five Guys
-Fryer's
-Greco Pizza
-Harvey's
-Hero Certified Burgers
-Jimmy the Greek
-KFC
-Krispy Kreme
-Lafleur Restaurants
-Lick's Homeburgers
-Little Caesars
-Manchu Wok
-Mary Brown's
-McDonald's Canada
-Mr. Sub
-Mucho Burrito
-New York Fries
-Orange Julius
-Panda Express
-Papa John's
-Pita Pit
-Pizza Hut
-Popeyes Louisiana Kitchen
-Quiznos
-Robin's Donuts
-Second Cup
-Subway
-Swiss Chalet
-Taco del Mar
-Taco Time
-Thaï Express
-Tim Hortons
-Valentine
-Wendy's
-White Spot
-Yogen Früz
-241 Pizza
 Baton Rouge
 Beaver Tails
 Ben & Florentine
 Big Smoke Burger
+Blenz Coffee
 Booster Juice
 Boston Pizza
-Cactus Club Cafe
+Brown's Social House
+Burger Baron
+Burger King
 C-Lovers Fish & Chips
-Eggsmart
-Mia Fresco
-The Friendly Greek
-New Orleans Pizza
+Cactus Club
+Captain Submarine
+Carl's Jr.
+Chattime
 Chez Ashton
+Chicken Delight
+Chipotle Mexican Grill
+Chopped Leaf
+Chronic Tacos
+Cinnabon
+Cinnzeo
+CoCo Fresh Tea & Juice
 Coffee Time
 Cora
-Crabby Joe's Tap & Grill
+Country Style
 Cows Ice Cream
-La Diperie
+Crabby Joe's Tap & Grill
+Dairy Queen
+De Dutch Pannekoek House
 Dic Ann's Hamburgers
 Dixie Lee Fried Chicken
+Domino's
 Donut Diner
 Dunn's
-Earls
+Earl's
 East Side Mario's
 Edo Japan
+Eggsmart
 Eggsquis
 Elephant and Castle Pub and Restaurant
+Extreme Pita
+Fast Eddies
+Fatburger
+Five Guys
 Freshii
+FreshSlice Pizza
+Fryer's
 Gabriel Pizza
 Golden Griddle
-The Great Canadian Bagel
+Gong Cha
+Greco Pizza
 Grinner's Food Systems Limited
 Harvey's
 Hero Certified Burgers
+Ihop
 Imvescor Restaurants Inc
 Jack Astor's Bar and Grill
+Jimmy the Greek
+JJ Bean
 JOEY
 Joey's Seafood Restaurants
+Jugo Juice
 Kawaii Crepe
-The Keg
 Kelsey's Neighbourhood Bar & Grill
+KFC
 King of Donair
+Krispy Kreme
 La Belle Province
+La Diperie
 Lafleur Restaurants
-Mary Brown's
+Lick's Homeburgers
+Little Caesars
+Manchu Wok
 Mandarin Restaurant
+Mary Brown's
 Maypole Dairy Products
+mcdonald's
+Menchie's Frozen Yogourt
+Mia Fresco
 Mikes
+Milestones
 Montana's Cookhouse
+Mother's Pizza
 Moxie's Grill & Bar
 Mr. Greek
 Mr. Mike's
+Mr. Sub
 MTY Food Group
+Mucho Burrito
+nando's
+New Orleans Pizza
 New York Fries
 Nickels Grill & Bar
 Normandin
 Nuburger
-The Old Spaghetti Factory
-OPA! of Greece
+Opa!
+Orange Julius
 Panago
-The Pantry
-Pizza Delight
-Pizza Pizza
-Recipe Unlimited
-Richtree Market
-Shoeless Joe's
-Salisbury House
-Scores
-Smoke's Poutinerie
-Stellas
-St-Hubert
-Second Cup
-Smitty's Family Restaurants
-Sunset Grill
-Swiss Chalet
-Symposium Cafe
-Thaï Express
-Tim Hortons
-Brown's Social House
-Urban Sparq Hospitality
-Wild Wing Restaurants
-Wimpy's Diner
-White Spot
-The Works
-Freshslice Pizza
-Gabriel Pizza
-Greco Pizza Restaurant
-King of Donair
-Mikes
-Mother's Pizza
-Panago
+Panda Express
+Papa John's
+Pita Pit
 Pizza 73
 Pizza Delight
+Pizza Hut
 Pizza Nova
 Pizza Pizza
 Pizzaiolo
-Topper's Pizza
-A&W Restaurant
-Blenz
-BLENZ HOpe cafe
-Brown's Socialhouse
-Cactus Club
-Chattime
-Chopped Leaf
-Chronic Tacos
-Cinnzeo
-CoCo Fresh Tea & Juice
-Coco 都可 Bubble Tea
-Cora Breakfast and Lunch
-De Dutch Pannekoek House
-Earls Kitchen + Bar
-Fatburger
-Freshii
-FreshSlice Pizza
-Gong Cha
-Ihop
-JJ Bean
-Jugo Juice
-Menchie's Frozen Yogourt
-Milestones
-Nando's Chicken
-Opa!
-Panago Pizza
+Popeyes Louisiana Kitchen
+Quik Chik - Milton
 Quiznos
+Recipe Unlimited
+Richtree Market
+Robin's Donuts
+Salisbury House
+Scores
+Second Cup
+Shoeless Joe's
+Smitty's Family Restaurants
+Smoke's Poutinerie
+St-Hubert
 Starbucks
-Thai Express
+Stellas
+Subway
+Sunset Grill
+Swiss Chalet
+Symposium Cafe
+Taco del Mar
+Taco Time
+Thaï Express
 The Chopped Leaf
+The Friendly Greek
+The Great Canadian Bagel
+The Keg
+The Old Spaghetti Factory
+The Pantry
+The Works
 Tim Horton's
+togo sushi
+Topper's Pizza
 Triple O's
 Uncle Fatih's Pizza
 Uncle Tetsu
+Urban Sparq Hospitality
+Valentine
 Waves
-Waves Coffee
-togo sushi
+Wendy's
+White Spot
+Wild Wing Restaurants
+Wimpy's Diner
+Yogen Früz
