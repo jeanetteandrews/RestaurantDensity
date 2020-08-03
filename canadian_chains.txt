@@ -1,6 +1,5 @@
-TEST12345678
 241 Pizza
-a&w
+A&W
 Arby's
 Baker's Dozen Donuts
 Baton Rouge
