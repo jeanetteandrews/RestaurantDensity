@@ -1,5 +1,6 @@
+TEST12345678
 241 Pizza
-A&W
+a&w
 Arby's
 Baker's Dozen Donuts
 Baton Rouge
@@ -140,7 +141,7 @@ The Old Spaghetti Factory
 The Pantry
 The Works
 Tim Horton's
-togo sushi
+Togo Sushi
 Topper's Pizza
 Triple O's
 Uncle Fatih's Pizza
