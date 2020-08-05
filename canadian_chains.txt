@@ -2,18 +2,26 @@
 A&W
 Arby's
 Baker's Dozen Donuts
+Banana Leaf
 Baton Rouge
+Bean Around the World
 Beaver Tails
 Ben & Florentine
 Big Smoke Burger
+Big Star Sandwich Co
 Blenz Coffee
 Booster Juice
 Boston Pizza
+Breka Bakery & Cafã
 Brown's Social House
+Bubble Waffle Cafe
+Bubble World
 Burger Baron
 Burger King
 C-Lovers Fish & Chips
 Cactus Club
+Caffè artigiano
+Canadian 2 For 1 Pizza
 Captain Submarine
 Carl's Jr.
 Chattime
@@ -22,6 +30,7 @@ Chicken Delight
 Chipotle Mexican Grill
 Chopped Leaf
 Chronic Tacos
+Church's Chicken
 Cinnabon
 Cinnzeo
 CoCo Fresh Tea & Juice
@@ -30,11 +39,19 @@ Cora
 Country Style
 Cows Ice Cream
 Crabby Joe's Tap & Grill
+Creme De La Crumb
+D-plus Pizza
 Dairy Queen
 De Dutch Pannekoek House
+Deer Garden Signatures
+Denny's
 Dic Ann's Hamburgers
+Dinesty Dumpling House
 Dixie Lee Fried Chicken
 Domino's
+Donair Affair
+Donair Dude
+Donair Town
 Donut Diner
 Dunn's
 Earl's
@@ -43,6 +60,7 @@ Edo Japan
 Eggsmart
 Eggsquis
 Elephant and Castle Pub and Restaurant
+Elysian Coffee Roasters
 Extreme Pita
 Fast Eddies
 Fatburger
@@ -70,6 +88,7 @@ Kelsey's Neighbourhood Bar & Grill
 KFC
 King of Donair
 Krispy Kreme
+Kung Fu Noodle
 La Belle Province
 La Diperie
 Lafleur Restaurants
@@ -77,9 +96,11 @@ Lick's Homeburgers
 Little Caesars
 Manchu Wok
 Mandarin Restaurant
+Marble Slab Creamery
 Mary Brown's
 Maypole Dairy Products
-mcdonald's
+Mcdonald's
+Meat & Bread
 Menchie's Frozen Yogourt
 Mia Fresco
 Mikes
@@ -92,33 +113,45 @@ Mr. Mike's
 Mr. Sub
 MTY Food Group
 Mucho Burrito
-nando's
+Nando's
+Neptune Chinese Kitchen
 New Orleans Pizza
 New York Fries
 Nickels Grill & Bar
 Normandin
 Nuburger
+Nuba
 Opa!
 Orange Julius
+Pacific Poke
+Pallet Coffee Roasters
 Panago
 Panda Express
 Papa John's
+Peaceful Restaurant
+pháÿ hãa
+pho 99
 Pita Pit
 Pizza 73
 Pizza Delight
+Pizza Garden
 Pizza Hut
 Pizza Nova
 Pizza Pizza
 Pizzaiolo
 Popeyes Louisiana Kitchen
+Quesada
 Quik Chik - Milton
 Quiznos
+Red Burrito
 Recipe Unlimited
 Richtree Market
+Ricky's
 Robin's Donuts
 Salisbury House
 Scores
 Second Cup
+Sharetea
 Shoeless Joe's
 Smitty's Family Restaurants
 Smoke's Poutinerie
@@ -147,9 +180,12 @@ Uncle Fatih's Pizza
 Uncle Tetsu
 Urban Sparq Hospitality
 Valentine
+Vera's Burger Shack
 Waves
 Wendy's
 White Spot
 Wild Wing Restaurants
 Wimpy's Diner
+Xing Fu Tang
+Yifang Taiwan Fruit Tea
 Yogen Früz
