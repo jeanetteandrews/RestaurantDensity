@@ -24,7 +24,7 @@ Caffè artigiano
 Canadian 2 For 1 Pizza
 Captain Submarine
 Carl's Jr.
-Chattime
+Chatime
 Chez Ashton
 Chicken Delight
 Chipotle Mexican Grill
@@ -129,15 +129,14 @@ Panago
 Panda Express
 Papa John's
 Peaceful Restaurant
-pháÿ hãa
-pho 99
+Pho Hua
+Pho 99
 Pita Pit
 Pizza 73
 Pizza Delight
 Pizza Garden
 Pizza Hut
 Pizza Nova
-Pizza Pizza
 Pizzaiolo
 Popeyes Louisiana Kitchen
 Quesada
