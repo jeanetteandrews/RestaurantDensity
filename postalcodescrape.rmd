@@ -1,0 +1,31 @@
+---
+title: "PostalCodeScrape"
+author: "Yu Han Zheng"
+date: "August 9, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(rvest)
+url <- "http://www.geonames.org/postal-codes/CA/BC/british-columbia.html"
+tables <- read_html(url)
+#length(html_nodes(tables, "table"))
+postalcodes <- html_table(html_nodes(tables, "table")[[3]])
+```
+
+
+```{r}
+postalcodes <- na.omit(postalcodes, cols="")
+postalcodes <- postalcodes[, c("Code","Place","Admin1","Admin2")]
+row.names(postalcodes) <- NULL
+#postalcodes
+```
+
+
+```{r}
+write.csv(postalcodes, 'postalcodes.csv', row.names=FALSE)
+```
