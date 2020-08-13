@@ -9,3 +9,4 @@ matplotlib
 descartes  
 geopandas  
 shapely  
+googlemaps
