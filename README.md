@@ -8,5 +8,5 @@ python-Levenshtein
 matplotlib  
 descartes  
 geopandas  
-shapely
+shapely  
 googlemaps
