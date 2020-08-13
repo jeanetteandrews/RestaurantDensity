@@ -9,4 +9,8 @@ matplotlib
 descartes  
 geopandas  
 shapely  
-googlemaps
+googlemaps  
+sklearn.model_selection  
+sklearn.ensemble  
+sklearn.preprocessing  
+pandas.io.json  
