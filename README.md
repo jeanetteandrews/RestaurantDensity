@@ -28,9 +28,9 @@ pandas.io.json
 	as well as their order of execution in:
       data_cleaning.ipynb
 	The above notebook references three other notebooks:
-	  find_postal_codes.ipynb 		   - includes googlemaps API requests
+	  find_postal_codes.ipynb          - includes googlemaps API requests
 	  get_all_restaurant_ratings.ipynb - includes googlemaps API requests
-	  label_and_hot_encoding.ipynb 	   - includes LabelEncoder and OneHotEncoder
+	  label_and_hot_encoding.ipynb     - includes LabelEncoder and OneHotEncoder
 	In addition, an R file, postalcodescrap.rmd was created to scrape postal
 	codes in the Greater Vancouver area.
 	NOTE: The above referenced notebooks and the .rmd file are in the folder,
