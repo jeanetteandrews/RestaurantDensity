@@ -76,6 +76,6 @@ pandas.io.json
 	predicting if a restaurant is a chain or not.
 	
 	Finally, we can take a look at heatmap.ipynb, which utilizes 
-	final_restuarants.csv to display two heatmaps to visualize density of chain
-	restaurants in Vancouver, real and predicted values.
-	
+	final_restuarants.csv and predicted_scores.csv to display two heatmaps
+	to visualize density of chain restaurants in Vancouver, real and
+	predicted values.
