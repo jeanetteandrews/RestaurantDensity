@@ -39,11 +39,8 @@ pandas.io.json
 #### Analyzing and Presenting Data:
 	Data analysis and visualizations can be found in:
 	  price_level_analysis.ipynb 	   - predictions on restaurant price levels
-	  chain_vs_nonchain_analysis 	   - predictions on whether restaurant is a
-										 chain or not
-	  heatmap.ipynb 				   - visualizations of restaurant chain 
-										 density in Vancouver, real and 
-										 predicted values
+	  chain_vs_nonchain_analysis 	   - predictions on whether restaurant is a chain or not
+	  heatmap.ipynb 				   - visualizations of restaurant chain density in Vancouver, real and predicted values
 										 
 ## Instuctions
     Start with data_cleaning.ipynb. Your end result should be multiple of .csv 
