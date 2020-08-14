@@ -30,6 +30,8 @@ pandas.io.json
 										 OneHotEncoder
 	In addition, an R file, postalcodescrap.rmd was created to scrape postal
 	codes in the Greater Vancouver area.
+	NOTE: the above referenced notebooks and the .rmd file are in the folder,
+	      'more files'
 #### Analyzing and Presenting Data:
 	Data analysis and visualizations can be found in:
 	  price_level_analysis.ipynb 	   - predictions on restaurant price levels
