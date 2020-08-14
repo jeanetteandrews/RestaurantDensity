@@ -6,6 +6,9 @@ numpy
 fuzzywuzzy  
 python-Levenshtein  
 matplotlib  
+descartes  
+geopandas  
+shapely  
 googlemaps  
 sklearn.model_selection  
 sklearn.ensemble  
@@ -13,12 +16,13 @@ sklearn.preprocessing
 pandas.io.json  
 
 
-## Project Pipeline
+### Project Pipeline
 #### Questions Asked:
 	Are there some parts of Vancouver with more chain restaurants than others? 
 	In particular, how can we use visual, statistical, and machine learning 
 	applications to find chains automatically by their density relative to 
 	non-chain restaurants?
+	
 #### Acquiring, Cleaning, and Preparing Data:
 	You will find much of our data acquiring, cleaning and preparation,
 	as well as their order of execution in:
@@ -31,7 +35,8 @@ pandas.io.json
 	In addition, an R file, postalcodescrap.rmd was created to scrape postal
 	codes in the Greater Vancouver area.
 	NOTE: The above referenced notebooks and the .rmd file are in the folder,
-	      'more files'.
+      'more files'.
+
 #### Analyzing and Presenting Data:
 	Data analysis and visualizations can be found in:
 	  price_level_analysis.ipynb 	   - predictions on restaurant price levels
@@ -78,6 +83,6 @@ pandas.io.json
 	predicting if a restaurant is a chain or not.
 	
 	Finally, we can take a look at heatmap.ipynb, which utilizes 
-	final_restuarants.csv and predicted_scores.csv to display two heatmaps
-	to visualize density of chain restaurants in Vancouver, real and
-	predicted values.
+	final_restuarants.csv to display two heatmaps to visualize density of chain
+	restaurants in Vancouver, real and predicted values.
+	
