@@ -6,9 +6,6 @@ numpy
 fuzzywuzzy  
 python-Levenshtein  
 matplotlib  
-descartes  
-geopandas  
-shapely  
 googlemaps  
 sklearn.model_selection  
 sklearn.ensemble  
