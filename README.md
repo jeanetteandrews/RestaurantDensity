@@ -1,6 +1,6 @@
 # CMPT 353 Project
 
-### Libraries used  
+## Libraries used  
 pandas  
 numpy  
 fuzzywuzzy  
@@ -13,7 +13,7 @@ sklearn.preprocessing
 pandas.io.json  
 
 
-### Project Pipeline
+## Project Pipeline
 #### Questions Asked:
 	Are there some parts of Vancouver with more chain restaurants than others? 
 	In particular, how can we use visual, statistical, and machine learning 
@@ -39,7 +39,7 @@ pandas.io.json
 										 density in Vancouver, real and 
 										 predicted values
 										 
-### Instuctions
+## Instuctions
     Start with data_cleaning.ipynb. Your end result should be multiple of .csv 
 	files. From data_cleaning.ipynb, in order:
 	  Expects: amenities-vancouver.json.gz
