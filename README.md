@@ -10,10 +10,13 @@ We started with [amenities-vancouver.json.gz](https://github.com/jeanetteandrews
 
 ### Acquiring, Cleaning, and Preparing Data
 You will find our data cleaning workflow in:
-* [data_cleaning.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/data_cleaning.ipynb) 
+* [data_cleaning.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/data_cleaning.ipynb) <br />
 <br />
-The above notebook references three other notebooks in the [more files](https://github.com/jeanetteandrews/RestaurantDensity/tree/master/more%20files) folder:
-* [find_postal_codes.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/find_postal_codes.ipynb)          - includes googlemaps API requests
+The above notebook references three other notebooks in the folder:
+* [find_postal_cpdes.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/find_postal_codes.ipynb)
+
+The above notebook references three other notebooks in the folder:
+* [find_postal_codes.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/find_postal_codes.ipynb) – includes GoogleMaps API requests
 * [get_all_restaurant_ratings.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/get_all_restaurant_ratings.ipynb) - includes googlemaps API requests
 * [label_and_hot_encoding.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/label_and_hot_encoding.ipynb)     - includes LabelEncoder and OneHotEncoder
 <br />
