@@ -12,15 +12,13 @@ We started with [amenities-vancouver.json.gz](https://github.com/jeanetteandrews
 You will find our data cleaning workflow in:
 * [data_cleaning.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/data_cleaning.ipynb) <br />
 <br />
-The above notebook references three other notebooks in the folder:
-* [find_postal_cpdes.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/find_postal_codes.ipynb)
+The above notebook references three other notebooks:
 
-The above notebook references three other notebooks in the folder:
-* [find_postal_codes.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/find_postal_codes.ipynb) – includes GoogleMaps API requests
-* [get_all_restaurant_ratings.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/get_all_restaurant_ratings.ipynb) - includes googlemaps API requests
-* [label_and_hot_encoding.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/label_and_hot_encoding.ipynb)     - includes LabelEncoder and OneHotEncoder
+* [find_postal_codes.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/find_postal_codes.ipynb) includes GoogleMaps API requests
+* [get_all_restaurant_ratings.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/get_all_restaurant_ratings.ipynb) - includes GoogleMaps API requests
+* [label_and_hot_encoding.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/label_and_hot_encoding.ipynb) - includes LabelEncoder and OneHotEncoder
 <br />
-In addition, an R file, [postalcodescrap.rmd](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/postalcodescrape.rmd) was created to scrape postal codes in the Greater Vancouver area.
+In addition[postalcodescrap.rmd](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/postalcodescrape.rmd) was created to scrape postal codes in the Greater Vancouver area.
       
 ### Analyzing and Presenting Data
 Data analysis and visualizations can be found in:
