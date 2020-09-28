@@ -3,22 +3,21 @@
 ## Project Pipeline
 
 ### Question
-Are there some parts of Vancouver with more chain restaurants than others? In particular, how can we use visual, statistical, and machine learning applications to find chains automatically by their density relative to non-chain restaurants?
+Are there some parts of Vancouver with more chain restaurants than others? How can we use visual, statistical, and machine learning applications to automatically find chain restuarants' densities relative to non-chain restaurants?
 
 ### Dataset
-We started with OpenStreetMap (OSM) data provided by the Computational Data Science professor at SFU. This data gave us thousands of facilities and amenities in the lower mainland, along with its latitude, longitude, amenity type, its OSM tags, and business name (if applicable).
+We started with [amenities-vancouver.json.gz](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/amenities-vancouver.json.gz), obtained from [OpenStreetMap](www.openstreetmap.org). This data gave us thousands of facilities and amenities in the Vancouver lower mainland, along with its latitude and longitude, amenity type, its OSM tags, and business name.
 
 ### Acquiring, Cleaning, and Preparing Data
-In order to only obtain the restaurants from the dataset, we selected facilities that were labeled "cafe", "fast_food", "restaurant", "pub", "bar", "ice_cream", "bistro", and "juice_bar" under their amenity type. This yielded 5,101 rows.
-
-You will find much of our data acquiring, cleaning and preparation, as well as their order of execution in:
-* data_cleaning.ipynb
-The above notebook references three other notebooks:
-* find_postal_codes.ipynb          - includes googlemaps API requests
-* get_all_restaurant_ratings.ipynb - includes googlemaps API requests
-* label_and_hot_encoding.ipynb     - includes LabelEncoder and OneHotEncoder
-In addition, an R file, postalcodescrap.rmd was created to scrape postal codes in the Greater Vancouver area.
-NOTE: The above referenced notebooks and the .rmd file are in the folder, 'more files'.
+You will find our data cleaning workflow in:
+* [data_cleaning.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/data_cleaning.ipynb) 
+<br />
+The above notebook references three other notebooks in the [more files](https://github.com/jeanetteandrews/RestaurantDensity/tree/master/more%20files) folder:
+* [find_postal_codes.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/find_postal_codes.ipynb)          - includes googlemaps API requests
+* [get_all_restaurant_ratings.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/get_all_restaurant_ratings.ipynb) - includes googlemaps API requests
+* [label_and_hot_encoding.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/label_and_hot_encoding.ipynb)     - includes LabelEncoder and OneHotEncoder
+<br />
+In addition, an R file, [postalcodescrap.rmd](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/postalcodescrape.rmd) was created to scrape postal codes in the Greater Vancouver area.
       
 ### Analyzing and Presenting Data
 Data analysis and visualizations can be found in:
