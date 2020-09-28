@@ -1,6 +1,36 @@
-# CMPT 353 Project
+# Restaurant Densities in Greater Vancouver using OpenStreetMap
 
-## Libraries used  
+## Project Pipeline
+
+### Question
+Are there some parts of Vancouver with more chain restaurants than others? In particular, how can we use visual, statistical, and machine learning applications to find chains automatically by their density relative to non-chain restaurants?
+
+### Dataset
+We started with OpenStreetMap (OSM) data provided by the Computational Data Science professor at SFU. This data gave us thousands of facilities and amenities in the lower mainland, along with its latitude, longitude, amenity type, its OSM tags, and business name (if applicable).
+
+### Acquiring, Cleaning, and Preparing Data
+In order to only obtain the restaurants from the dataset, we selected facilities that were labeled "cafe", "fast_food", "restaurant", "pub", "bar", "ice_cream", "bistro", and "juice_bar" under their amenity type. This yielded 5,101 rows.
+
+You will find much of our data acquiring, cleaning and preparation, as well as their order of execution in:
+* data_cleaning.ipynb
+The above notebook references three other notebooks:
+* find_postal_codes.ipynb          - includes googlemaps API requests
+* get_all_restaurant_ratings.ipynb - includes googlemaps API requests
+* label_and_hot_encoding.ipynb     - includes LabelEncoder and OneHotEncoder
+In addition, an R file, postalcodescrap.rmd was created to scrape postal codes in the Greater Vancouver area.
+NOTE: The above referenced notebooks and the .rmd file are in the folder, 'more files'.
+      
+### Analyzing and Presenting Data
+Data analysis and visualizations can be found in:
+* price_level_analysis.ipynb 	   - predictions on restaurant price levels
+* chain_vs_nonchain_analysis 	   - predictions on whether restaurant is a chain or not
+* heatmap.ipynb                    - visualizations of restaurant chain density in Vancouver, real and predicted values
+
+### Results
+
+### Limitations
+
+## Libraries Used  
 pandas
 numpy  
 fuzzywuzzy  
@@ -15,36 +45,14 @@ sklearn.ensemble
 sklearn.preprocessing  
 pandas.io.json  
 
-
-### Project Pipeline
-#### Questions Asked:
-	Are there some parts of Vancouver with more chain restaurants than others? 
-	In particular, how can we use visual, statistical, and machine learning 
-	applications to find chains automatically by their density relative to 
-	non-chain restaurants?
-	
-#### Acquiring, Cleaning, and Preparing Data:
-	You will find much of our data acquiring, cleaning and preparation,
-	as well as their order of execution in:
-      data_cleaning.ipynb
-	The above notebook references three other notebooks:
-	  find_postal_codes.ipynb          - includes googlemaps API requests
-	  get_all_restaurant_ratings.ipynb - includes googlemaps API requests
-	  label_and_hot_encoding.ipynb     - includes LabelEncoder and OneHotEncoder
-	In addition, an R file, postalcodescrap.rmd was created to scrape postal
-	codes in the Greater Vancouver area.
-	NOTE: The above referenced notebooks and the .rmd file are in the folder,
-      'more files'.
-
-#### Analyzing and Presenting Data:
-	Data analysis and visualizations can be found in:
-	  price_level_analysis.ipynb 	   - predictions on restaurant price levels
-	  chain_vs_nonchain_analysis 	   - predictions on whether restaurant is a chain or not
-	  heatmap.ipynb                    - visualizations of restaurant chain density in Vancouver, real and predicted values
+### Team Members
+* Jeanette Andrews
+* Yu Han Zheng
+* Catherine Riopel
 										 
-## Instuctions
-    Start with data_cleaning.ipynb. Your end result should be multiple of .csv 
-	files. From data_cleaning.ipynb, in order:
+### Detailed Instuctions
+Start with data_cleaning.ipynb. Your end result should be multiple of .csv files. 
+	From data_cleaning.ipynb, in order:
 	  Expects: amenities-vancouver.json.gz
 	  Outputs: complete_resturants.csv
 	  References: find_postal_codes.ipynb
