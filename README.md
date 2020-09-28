@@ -1,7 +1,7 @@
 # CMPT 353 Project
 
 ## Libraries used  
-pandas  
+pandas
 numpy  
 fuzzywuzzy  
 python-Levenshtein  
