@@ -14,11 +14,12 @@ You will find our data cleaning workflow in:
 <br />
 The above notebook references three other notebooks:
 
-* [find_postal_codes.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/find_postal_codes.ipynb) includes GoogleMaps API requests
-* [get_all_restaurant_ratings.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/get_all_restaurant_ratings.ipynb) - includes GoogleMaps API requests
-* [label_and_hot_encoding.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/label_and_hot_encoding.ipynb) - includes LabelEncoder and OneHotEncoder
+* [find_postal_codes.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/find_postal_codes.ipynb) (includes GoogleMaps API requests)
+* [get_all_restaurant_ratings.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/get_all_restaurant_ratings.ipynb) (includes GoogleMaps API requests)
+* [label_and_hot_encoding.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/label_and_hot_encoding.ipynb) (includes LabelEncoder and OneHotEncoder)
 <br />
-In addition[postalcodescrap.rmd](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/postalcodescrape.rmd) was created to scrape postal codes in the Greater Vancouver area.
+Additionally, [postalcodescrape.rmd](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/postalcodescrape.rmd) scrapes postal codes in the Greater Vancouver area.
+The previous four files can be found in the [more files](https://github.com/jeanetteandrews/RestaurantDensity/tree/master/more%20files) folder.
       
 ### Analyzing and Presenting Data
 Data analysis and visualizations can be found in:
