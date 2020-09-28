@@ -46,12 +46,12 @@ sklearn.ensemble
 sklearn.preprocessing  
 pandas.io.json  
 
-### Team Members
+## Team Members
 * Jeanette Andrews
 * Yu Han Zheng
 * Catherine Riopel
 										 
-### Detailed Instuctions
+## Detailed Instuctions
 Start with data_cleaning.ipynb. Your end result should be multiple of .csv files. 
 	From data_cleaning.ipynb, in order:
 	  Expects: amenities-vancouver.json.gz
