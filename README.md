@@ -3,7 +3,7 @@
 ## Project Pipeline
 
 ### Question
-Are there some parts of Greater Vancouver with more chain restaurants than others? How can we use visual, statistical, and machine learning applications to automatically find chain restuarants' densities relative to non-chain restaurants?
+Are there some parts of Greater Vancouver with more chain restaurants than others? How can we use visual, statistical, and machine learning applications to automatically find chain restuarant densities relative to non-chain restaurants?
 
 ### Dataset
 We started with [amenities-vancouver.json.gz](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/amenities-vancouver.json.gz), obtained from [OpenStreetMap](www.openstreetmap.org). This data gave us thousands of facilities and amenities in the Vancouver lower mainland, along with its latitude and longitude, amenity type, its OSM tags, and business name.
@@ -14,13 +14,13 @@ You will find our data cleaning workflow in:
 <br />
 The above notebook references three other notebooks:
 
-* [find_postal_codes.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/find_postal_codes.ipynb) (includes GoogleMaps API requests)
-* [get_all_restaurant_ratings.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/get_all_restaurant_ratings.ipynb) (includes GoogleMaps API requests)
-* [label_and_hot_encoding.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more%20files/label_and_hot_encoding.ipynb) (includes LabelEncoder and OneHotEncoder)
+* [find_postal_codes.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more_files/find_postal_codes.ipynb) (includes GoogleMaps API requests)
+* [get_all_restaurant_ratings.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more_files/get_all_restaurant_ratings.ipynb) (includes GoogleMaps API requests)
+* [label_and_hot_encoding.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more_files/label_and_hot_encoding.ipynb) (includes LabelEncoder and OneHotEncoder)
 <br />
-Additionally, [postalcodescrape.rmd](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more+files/postalcodescrape.rmd) scrapes postal codes in the Greater Vancouver area. 
+Additionally, [postalcodescrape.rmd](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more_files/postalcodescrape.rmd) scrapes postal codes in the Greater Vancouver area. 
 <br />
-The previous four files can be found in the [more files](https://github.com/jeanetteandrews/RestaurantDensity/tree/master/more+files) folder.
+The previous four files can be found in the [more files](https://github.com/jeanetteandrews/RestaurantDensity/tree/master/more_files) folder.
       
 ### Analyzing and Presenting Data
 Data analysis and visualizations can be found in:
