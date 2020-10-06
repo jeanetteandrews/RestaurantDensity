@@ -59,27 +59,27 @@ You will find our analyses and visualizations in:
 From [data_cleaning.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/data_cleaning.ipynb), in order:
 
 * Expects: [amenities-vancouver.json.gz](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/amenities-vancouver.json.gz)
-* Outputs: [complete_resturants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/complete_restaurants.csv)
+* Outputs: [complete_restaurants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/complete_restaurants.csv)
 * References: [find_postal_codes.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more_files/find_postal_codes.ipynb)
-	* Expects: [complete_resturants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/complete_restaurants.csv)
-	* Outputs: [complete_resturants_WITH_ADDRESS.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/complete_restaurants_WITH_ADDRESS.csv)
+	* Expects: [complete_restaurants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/complete_restaurants.csv)
+	* Outputs: [complete_restaurants_WITH_ADDRESS.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/complete_restaurants_WITH_ADDRESS.csv)
 * Expects: [postalcodes.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/postalcodes.csv) (from [postalcodescrape.rmd](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/more_files/postalcodescrape.rmd))
-* Outputs: [final_restuarants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants.csv)
+* Outputs: [final_restaurants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants.csv)
 * References: [get_all_restaurant_ratings.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more_files/get_all_restaurant_ratings.ipynb)
-	* Expects: [final_restuarants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants.csv)
+	* Expects: [final_restaurants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants.csv)
 	* Outputs: [final_restaurants_v2.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants_v2.csv)
 * References: [label_and_hot_encoding.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more_files/label_and_hot_encoding.ipynb)
 	* Expects: [final_restaurants_v2.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants_v2.csv)
 	* Outputs: [hot_encoded_rests.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/hot_encoded_rests.csv)
 	  
 For the remainder of the project we will work with: 
-* [final_restuarants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants.csv)
+* [final_restaurants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants.csv)
 * [final_restaurants_v2.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants_v2.csv)
 * [hot_encoded_rests.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/hot_encoded_rests.csv)
 	 
-2. Take a look at [price_level_analysis.ipynb](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/price_level_analysis.ipynb), which uses [final_restuarants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants.csv) and [hot_encoded_rests.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/hot_encoded_rests.csv) to create a bar graph on restaurant price levels of and a random forest classifier to predict price levels.
+2. Take a look at [price_level_analysis.ipynb](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/price_level_analysis.ipynb), which uses [final_restaurants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants.csv) and [hot_encoded_rests.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/hot_encoded_rests.csv) to create a bar graph on restaurant price levels of and a random forest classifier to predict price levels.
 	
-3. Take a look at [chain_vs_nonchain_analysis.ipynb](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/chain_vs_nonchain_analysis.ipynb), which uses [final_restuarants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants.csv) to perform a chi squared test. This test determines whether there is a statistically significant difference between expected and observed frequencies of chain restaurants in different neighborhoods. In the same notebook, we use [hot_encoded_rests.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/hot_encoded_rests.csv) and [final_restaurants_v2.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants_v2.csv) to predict whether or not a restaurant is a chain or independent restaurant using a random forest classifier.
+3. Take a look at [chain_vs_nonchain_analysis.ipynb](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/chain_vs_nonchain_analysis.ipynb), which uses [final_restaurants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants.csv) to perform a chi squared test. This test determines whether there is a statistically significant difference between expected and observed frequencies of chain restaurants in different neighborhoods. In the same notebook, we use [hot_encoded_rests.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/hot_encoded_rests.csv) and [final_restaurants_v2.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants_v2.csv) to predict whether or not a restaurant is a chain or independent restaurant using a random forest classifier.
 	
-4. Finally, take a look at [heatmap.ipynb](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/heatmap.ipynb), which uses [final_restuarants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants.csv) to display two heatmaps of chain restaurant densities in Vancouver, comparing real and predicted values.
+4. Finally, take a look at [heatmap.ipynb](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/heatmap.ipynb), which uses [final_restaurants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants.csv) to display two heatmaps of chain restaurant densities in Vancouver, comparing real and predicted values.
 	
