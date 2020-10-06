@@ -1,5 +1,7 @@
 # Restaurant Densities in Vancouver using OpenStreetMap
 
+### Repository in progress!
+
 ## Project Pipeline
 
 ### Question
@@ -11,16 +13,14 @@ We started with [amenities-vancouver.json.gz](https://github.com/jeanetteandrews
 ### Acquiring, Cleaning, and Preparing Data
 You will find our data cleaning workflow in:
 * [data_cleaning.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/data_cleaning.ipynb) <br />
-<br />
-The above notebook references three other notebooks:
+
+The above notebook references three other notebooks in the [more files](https://github.com/jeanetteandrews/RestaurantDensity/tree/master/more_files) folder:
 
 * [find_postal_codes.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more_files/find_postal_codes.ipynb) (includes GoogleMaps API requests)
 * [get_all_restaurant_ratings.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more_files/get_all_restaurant_ratings.ipynb) (includes GoogleMaps API requests)
 * [label_and_hot_encoding.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more_files/label_and_hot_encoding.ipynb) (includes LabelEncoder and OneHotEncoder)
-<br />
-Additionally, [postalcodescrape.rmd](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more_files/postalcodescrape.rmd) scrapes postal codes in the Greater Vancouver area. 
-<br />
-The previous four files can be found in the [more files](https://github.com/jeanetteandrews/RestaurantDensity/tree/master/more_files) folder.
+
+Additionally, [postalcodescrape.rmd](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more_files/postalcodescrape.rmd) scrapes postal codes in the Greater Vancouver area.
       
 ### Analyzing and Presenting Data
 Data analysis and visualizations can be found in:
