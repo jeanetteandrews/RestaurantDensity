@@ -27,7 +27,7 @@ You will find our analyses and visualizations in:
 
 * [price_level_analysis.ipynb](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/price_level_analysis.ipynb) – Predicts restaurant price levels.
 * [chain_vs_nonchain_analysis.ipynb](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/chain_vs_nonchain_analysis.ipynb) – Predicts whether or not a restaurant is a chain restuarant.
-* [heatmap.ipynb](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/heatmap.ipynb) – Visualizes restaurant chain density in Vancouver and compares real vs. predicted restaurant plots.
+* [heatmap.ipynb](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/heatmap.ipynb) – Uses Google Maps gmaps API to create heatmaps of restaurant chain density in Vancouver.
 
 ### Results
 
@@ -35,18 +35,22 @@ You will find our analyses and visualizations in:
 
 ## Libraries Used  
 * pandas
-* numpy  
+* numpy
+* scipy
 * fuzzywuzzy  
 * python-Levenshtein  
 * matplotlib  
 * descartes  
 * geopandas  
 * shapely  
-* googlemaps  
+* googlemaps 
+* gmaps
+* re
 * sklearn.model_selection  
 * sklearn.ensemble  
 * sklearn.preprocessing  
 * pandas.io.json  
+* json
 
 ## Team Members
 * Jeanette Andrews
@@ -63,7 +67,7 @@ From [data_cleaning.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/
 * References: [find_postal_codes.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more_files/find_postal_codes.ipynb)
 	* Expects: [complete_restaurants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/complete_restaurants.csv)
 	* Outputs: [complete_restaurants_WITH_ADDRESS.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/complete_restaurants_WITH_ADDRESS.csv)
-* Expects: [postalcodes.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/postalcodes.csv) (from [postalcodescrape.rmd](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/more_files/postalcodescrape.rmd))
+* Expects: [postalcodes.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/postalcodes.csv) (from [postalcodescrape.rmd](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/more_files/postalcodescrape.rmd)) and [canadian_chains.txt](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/canadian_chains.txt)
 * Outputs: [final_restaurants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants.csv)
 * References: [get_all_restaurant_ratings.ipynb](https://github.com/jeanetteandrews/RestaurantDensity/blob/master/more_files/get_all_restaurant_ratings.ipynb)
 	* Expects: [final_restaurants.csv](https://github.com/jeanetteandrews/VancouverRestaurantDensity/blob/master/final_restaurants.csv)
