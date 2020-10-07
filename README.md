@@ -1,7 +1,5 @@
 # Restaurant Densities in Greater Vancouver
 
-### Repository in progress!
-
 ## Project Pipeline
 
 ### Question
